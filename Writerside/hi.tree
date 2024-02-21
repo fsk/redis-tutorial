@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                 name="Help Instance"
+                 start-page="Lua-Script.md">
+
+    <toc-element topic="Redis.md">
+        <toc-element topic="Hello-Redis.md"/>
+        <toc-element topic="SET-Methodu.md"/>
+        <toc-element topic="INCR-Methodu.md"/>
+        <toc-element topic="INCRBY-Methodu.md"/>
+        <toc-element topic="DECR-DECRBY-INCRBYFLOAT-Methodları.md"/>
+        <toc-element topic="How-to.md"/>
+        <toc-element topic="MGET-MSET-Methodları.md"/>
+        <toc-element topic="LISTS.md">
+            <toc-element topic="LPUSH-RPUSH-Methodları.md"/>
+            <toc-element topic="LLEN-Methodu.md"/>
+            <toc-element topic="LINDEX-Methodu.md"/>
+            <toc-element topic="LRANGE-Methodu.md"/>
+            <toc-element topic="RPOP-LPOP-Methodları.md"/>
+        </toc-element>
+        <toc-element topic="HASHES.md">
+            <toc-element topic="HGETALL-Methodu.md"/>
+            <toc-element topic="HSET-Methodu.md"/>
+            <toc-element topic="HMSET-Methodu.md"/>
+            <toc-element topic="HINCRBY-HINCRBYFLOAT-INCRBY-INCRBYFLOAT-Methodları.md"/>
+            <toc-element topic="HGET-HMGET-Methodları.md"/>
+            <toc-element topic="HDEL-Methodu.md"/>
+        </toc-element>
+        <toc-element topic="SETS.md">
+            <toc-element topic="SCARD-Methodu.md"/>
+            <toc-element topic="SISMEMBER-Methodu.md"/>
+            <toc-element topic="SINTER-Methodu.md"/>
+            <toc-element topic="SADD-Methodu.md"/>
+            <toc-element topic="SDIFF-Methodu.md"/>
+            <toc-element topic="SUNION-Methodu.md"/>
+            <toc-element topic="SRANDMEMBER.md"/>
+            <toc-element topic="SREM-Methodu.md"/>
+            <toc-element topic="SMEMBERS-Methodu.md"/>
+        </toc-element>
+        <toc-element topic="SORTED-SET.md">
+            <toc-element topic="ZADD-Methodu.md"/>
+            <toc-element topic="ZRANGE-Methodu.md"/>
+        </toc-element>
+        <toc-element topic="BITMAPS.md">
+            <toc-element topic="BIT-OPERATIONS.md"/>
+            <toc-element topic="SETBIT.md"/>
+            <toc-element topic="GETBIT.md"/>
+            <toc-element topic="BIT-GRUPLARI.md"/>
+        </toc-element>
+        <toc-element topic="HyperLogLogs.md">
+            <toc-element topic="PFADD-Methodu.md"/>
+            <toc-element topic="PFCOUNT.md"/>
+        </toc-element>
+        <toc-element topic="TIMESERIES.md"/>
+        <toc-element topic="PUB-SUB.md"/>
+        <toc-element topic="TRANSACTIONS.md">
+            <toc-element topic="TRANSACTION-ERRORS.md"/>
+            <toc-element topic="TRANSACTION-Rollbacks.md"/>
+            <toc-element topic="TRANSACTION-Watch.md"/>
+        </toc-element>
+        <toc-element topic="PIPELINE.md">
+            <toc-element topic="RTT.md"/>
+        </toc-element>
+        <toc-element topic="Lua-Script.md">
+            <toc-element topic="Hello-Lua.md"/>
+            <toc-element topic="Değişkenler.md"/>
+            <toc-element topic="Veri-Tipleri.md"/>
+            <toc-element topic="Operatorler.md"/>
+            <toc-element topic="Döngüler.md"/>
+            <toc-element topic="Koşullu-İfadeler.md"/>
+            <toc-element topic="Function.md"/>
+            <toc-element topic="Stringler.md"/>
+            <toc-element topic="Array.md"/>
+            <toc-element topic="Tables.md"/>
+        </toc-element>
+        <toc-element topic="REDİS-VE-LUA.md">
+            <toc-element topic="EVAL-Methodu.md"/>
+            <toc-element topic="EVAL-Methodu-Örneği.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>
