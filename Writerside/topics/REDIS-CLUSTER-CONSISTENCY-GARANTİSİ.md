@@ -2,7 +2,7 @@
 
 * Burada 2 tane consistency kavramı karşımıza çıkmaktadır. **_Eventually Consistency_**,  **_Strongly Consistency_**
 
-**Eventually Consistency**
+## Eventually Consistency
 
 Eventual consistency, bir dağıtık sistemde, tüm kopyaların zamanla tutarlı hale geleceğini, ancak bunun hemen 
 gerçekleşmeyebileceğini kabul eder. Bu, bir güncelleme yapıldıktan sonra, tüm kopyaların anında güncellenmeyebileceği, 
@@ -27,7 +27,7 @@ adresi değiştirildiğinde, bu değişiklik tüm DNS sunucularına yayılmak i�
 kadar eski veya yeni IP adresine yönlendirilebilir, ancak sonunda tüm kullanıcılar yeni adresi çözecektir.
 
 
-**Strongly Consistency**
+## Strongly Consistency
 
 Strongly consistency, bir dağıtık sistemdeki veri kopyalarının her zaman güncel ve tutarlı olmasını gerektirir. 
 Bu, bir veri ögesine yapılan bir güncelleme işleminden sonra, tüm sistemdeki tüm okuma işlemlerinin bu güncellemeyi 
