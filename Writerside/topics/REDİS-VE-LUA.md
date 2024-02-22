@@ -1,4 +1,4 @@
-# REDİS VE LUA
+# REDIS VE LUA
 
 Redis, Redis 2.6 sürümünde, scripting özelliğini tanıttı ve Redis'i genişletmek için seçilen dil Lua oldu. 
 Redis 2.6'dan önce, Redis'i genişletmenin sadece bir yolu vardı, kaynak kodunu değiştirmek, bu da C dilinde yazılmıştı. 

@@ -78,7 +78,16 @@
         </toc-element>
         <toc-element topic="REDİS-VE-LUA.md">
             <toc-element topic="EVAL-Methodu.md"/>
-            <toc-element topic="EVAL-Methodu-Örneği.md"/>
+            <toc-element topic="EVAL-Methodu-Örneği.md">
+            </toc-element>
+            <toc-element topic="EVALSHA-Methodu.md"/>
+            <toc-element topic="EVALSHA-Method-Örneği.md"/>
+        </toc-element>
+        <toc-element topic="REDIS-CLUSTER.md">
+            <toc-element topic="REDIS-CLUSTER-ÇALIŞMA-PRENSİBİ.md"/>
+            <toc-element topic="DATA-SHARDING.md"/>
+            <toc-element topic="REDIS-CLUSTER-MASTER-REPLICA-MODEL.md"/>
+            <toc-element topic="REDIS-CLUSTER-CONSISTENCY-GARANTİSİ.md"/>
         </toc-element>
     </toc-element>
 </instance-profile>
