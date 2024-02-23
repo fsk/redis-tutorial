@@ -82,7 +82,11 @@
             <toc-element topic="EVALSHA-Methodu.md"/>
             <toc-element topic="EVALSHA-Method-Örneği.md"/>
         </toc-element>
+        <toc-element topic="REDIS-PERSISTANCE.md">
+            <toc-element topic="RDB.md"/>
+        </toc-element>
         <toc-element topic="REDIS-CLUSTER.md">
+            <toc-element topic="REDIS-CLUSTER-OLUŞTURMA.md"/>
             <toc-element topic="REDIS-CLUSTER-ÇALIŞMA-PRENSİBİ.md"/>
             <toc-element topic="DATA-SHARDING.md"/>
             <toc-element topic="REDIS-CLUSTER-MASTER-REPLICA-MODEL.md"/>
