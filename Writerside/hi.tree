@@ -76,11 +76,14 @@
             <toc-element topic="Tables.md"/>
         </toc-element>
         <toc-element topic="REDİS-VE-LUA.md">
+            <toc-element topic="Redis-Call-Methodu.md"/>
             <toc-element topic="EVAL-Methodu.md"/>
             <toc-element topic="EVAL-Methodu-Örneği.md">
             </toc-element>
             <toc-element topic="EVALSHA-Methodu.md"/>
             <toc-element topic="EVALSHA-Method-Örneği.md"/>
+            <toc-element topic="Hello-Node-js-in-Lua.md"/>
+            <toc-element topic="Node-js-Ve-Lua.md"/>
         </toc-element>
         <toc-element topic="REDIS-PERSISTANCE.md">
             <toc-element topic="Hangisini-Kullanmalıyım.md"/>
