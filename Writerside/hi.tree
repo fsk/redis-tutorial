@@ -83,7 +83,9 @@
             <toc-element topic="EVALSHA-Method-Örneği.md"/>
         </toc-element>
         <toc-element topic="REDIS-PERSISTANCE.md">
+            <toc-element topic="Hangisini-Kullanmalıyım.md"/>
             <toc-element topic="RDB.md"/>
+            <toc-element topic="AOF-Append-only-File.md"/>
         </toc-element>
         <toc-element topic="REDIS-CLUSTER.md">
             <toc-element topic="REDIS-CLUSTER-OLUŞTURMA.md"/>

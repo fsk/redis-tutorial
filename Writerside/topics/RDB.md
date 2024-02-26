@@ -68,7 +68,33 @@ Bu nedenle, Redis yapılandırmanızı planlarken, sisteminizin gereksinimlerini
 Snapshot stratejimizi, veri kaybı riskini minimize ederken performansı optimize edecek şekilde dikkatli bir şekilde 
 dengelememiz gerekir.
 
-### Avantajları
+## RDB COMMANDS
+
+### stop-writes-on-bgsave-error
+Bu config için geçerli değerler **yes** veya **no** dur. Bu seçenek, son arka plan kaydetme işlemi başarısız olduğunda 
+Redis'in yazma işlemlerini kabul etmeyi durdurmasını sağlar. Redis, bir arka plan kaydetme işlemi başarılı olduktan sonra 
+tekrar yazma işlemlerini kabul etmeye başlar. Varsayılan değer yes'tir.
+
+### rdbcompression
+Bu seçenek için geçerli değerler **yes** veya **no**dur. Bu seçenek yes olarak ayarlandığında, Redis .rdb dosyaları için 
+LZF sıkıştırmasını kullanır. Varsayılan değer yes'tir.
+
+### rdbchecksum
+Bu seçenek için geçerli değerler **yes** veya **no**dur. _yes_ olarak ayarlandığında, Redis .rdb dosyasının sonuna bir 
+kontrol toplamı kaydeder ve .rdb dosyasını yüklerken bir kontrol toplamı gerçekleştirir. Redis, RDB kontrol toplamı 
+dosyadaki ile eşleşmediğinde başlamaz. Varsayılan değer yes'tir.
+
+### dbfilename
+.rdb file dosyasının adını ayarlamızı sağlar. Varsayılan ad _dumb.rdb_'dir.
+
+### save
+Bu seçenek, snapshot alma sıklığını, saniye ve değişiklik sayısına göre yapılandırır. Birden fazla kez belirtilebilir.
+
+### dir
+Spesifik olarak dosya yolu belirtmemizi sağlar.
+
+
+## Avantajlar
 * RDB, Redis verilerinizin tek dosyalık, zaman noktasındaki çok kompakt bir temsilidir. RDB dosyaları yedekleme için 
 mükemmeldir. Örneğin, son 24 saat için her saat başı RDB dosyalarınızı arşivlemek ve 30 gün boyunca her gün bir RDB anlık 
 görüntüsü kaydetmek isteyebiliriz. Bu, felaket durumlarında veri setinin farklı sürümlerini kolayca geri yüklememize 
@@ -85,7 +111,7 @@ oluşturmaktır. Main Process, disk I/O işlemleri gibi işlemleri asla gerçekl
 * RDB, AOF'ye kıyasla büyük veri set'lerinde daha hızlı yeniden başlatmalara olanak tanır.
 
 
-### Dezavantajları
+## Dezavantajlar
 * RDB, Redis'in çalışmayı durdurması durumunda (örneğin bir güç kesintisi sonrası) veri kaybı ihtimalini en aza indirmek 
 istediğinizde iyi bir seçenek değildir. Farklı kaydetme noktaları yapılandırabilirsiniz ki bir RDB oluşturulsun 
 (örneğin, en az beş dakika ve veri setine karşı 100 yazma işlemi sonrasında, birden fazla kaydetme noktasına sahip 
