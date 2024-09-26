@@ -1,6 +1,6 @@
 # ZRANGE Methodu
 
-* Belirli bir <key>'de saklanan sıralı setteki belirtilen aralıktaki elemanları döndürür.
+* Belirli bir key'de saklanan sıralı setteki belirtilen aralıktaki elemanları döndürür.
 * ZRANGE, farklı türde aralık sorguları gerçekleştirebilir: indekse (sıralama) göre, puana göre veya alfabetik sıraya göre.
 * ZRANGE methodu normal defaultta score puanlarına göre sıralı getirir. Aynı puana sahip olan değerler
   alfabetik sıraya göre düzelir.

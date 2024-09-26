@@ -101,4 +101,7 @@
             <toc-element topic="REDIS-CONFGIRUTAION-PARAMETRELERİ.md"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="GERÇEK-HAYAT-PROBLEMLERİ.md">
+        <toc-element topic="Problem1.md"/>
+    </toc-element>
 </instance-profile>
