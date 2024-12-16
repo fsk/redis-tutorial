@@ -104,5 +104,33 @@
             <toc-element topic="Problem1.md"/>
             <toc-element topic="Problem2-Distributed-Lock.md"/>
         </toc-element>
+        <toc-element topic="REDIS-PRIMARY-DATABASE-OLARAK-KULLANILABİLİR-Mİ.md">
+            <toc-element topic="redis-conf-file.md">
+                <toc-element topic="bind.md"/>
+                <toc-element topic="protected-mode.md"/>
+                <toc-element topic="tcp-backlog.md"/>
+                <toc-element topic="timeout.md"/>
+                <toc-element topic="tct-keepalive.md"/>
+                <toc-element topic="daemonize.md"/>
+                <toc-element topic="loglevel.md"/>
+                <toc-element topic="logfile.md"/>
+                <toc-element topic="databases.md"/>
+                <toc-element topic="save.md"/>
+                <toc-element topic="stop-writes-on-bgsave-error.md"/>
+                <toc-element topic="rdbcompression.md"/>
+                <toc-element topic="rdbchecksum.md"/>
+                <toc-element topic="dbfilename.md"/>
+                <toc-element topic="rdb-del-sync-files.md"/>
+                <toc-element topic="dir.md"/>
+                <toc-element topic="appendonly.md"/>
+                <toc-element topic="appendfilename.md"/>
+                <toc-element topic="appenddirname.md"/>
+                <toc-element topic="appendfsync.md"/>
+                <toc-element topic="no-appendfsync-on-rewrite.md"/>
+                <toc-element topic="auto-aof-rewrite-percentage-ve-auto-aof-rewrite-min-size.md"/>
+                <toc-element topic="aof-load-truncated.md"/>
+                <toc-element topic="aof-timestamp-enabled.md"/>
+            </toc-element>
+        </toc-element>
     </toc-element>
 </instance-profile>

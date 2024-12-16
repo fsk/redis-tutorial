@@ -10,4 +10,8 @@
         <description>Created after removal of "How to" from Help Instance</description>
         <accepts>How-to.html</accepts>
     </rule>
+    <rule id="7b9434bd">
+        <description>Created after removal of "sanitize dump payload" from Help Instance</description>
+        <accepts>sanitize-dump-payload.html</accepts>
+    </rule>
 </rules>
